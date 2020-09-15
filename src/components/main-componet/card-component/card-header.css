@@ -1,0 +1,38 @@
+.card__menu{
+    /* border:solid blueviolet 2px; */
+    padding: 1em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar{
+    display:block;
+}
+
+.avatar__image{
+
+    /* border:solid blueviolet 2px; */
+    border-radius: 50%;   
+    object-fit: cover; /* sirve para evitar deformaciones e las imagenes */
+}
+.avatar__name{
+    /* border:solid red 2px; */
+    display: inline-block;
+    position: relative;
+    bottom: .7em;
+    left: .7em;
+    margin-bottom: 0em;
+    font-size: .8em;
+    font-weight: 600;
+    color:#424242;
+}
+.menu__opcion__ellipsis{
+    /* border: solid red 2px; */
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 100;
+    margin: auto;
+    margin-top: 17px;
+    color: #424242 ;
+   
+}

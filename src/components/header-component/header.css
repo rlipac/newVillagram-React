@@ -1,0 +1,65 @@
+.header{
+       /* border:solid 3px red; */
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 1em;
+    border-bottom: solid 1px #e0e0e0  ;
+  
+}
+.header__logo{
+     /* border:solid 3px red; */
+    font-family: 'Kaushan Script', cursive;
+    color:#212121 ;
+    font-size: 1.5em;
+    font-weight: 700;
+    display: inline-block;
+    margin:auto 0;
+}
+.header__images{
+    /* border:solid peru 2px; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+    /* border:solid 3px black; */
+}
+.header__images__user{
+    /* border:solid 2px rebeccapurple; */
+    border-radius: 50%;
+    display: inline-block;
+    margin:auto
+}
+
+
+@media (max-width: 360px) {
+   
+            .header{
+         
+            padding: .3em .5em;
+            border-bottom: solid 1px #e0e0e0  ;
+        
+        }
+        .header__logo{
+          /* //  border:solid 3px red; */
+            
+            font-size: 1.2em;
+            font-weight: 700;
+        }
+        .header__images{
+            /* border:solid peru 2px; */
+            font-size: .9em;
+            margin-top: 8px;
+           
+           
+        }
+        .header__images__user{
+           
+            max-width: 2em;
+            min-width: 2em;
+            object-fit: cover;
+            /* border:solid peru 4px; */
+        }
+
+  }

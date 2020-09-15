@@ -1,0 +1,46 @@
+.card__footer{
+  /* border:solid green 2px; */
+  padding: 0 1em;
+ 
+}
+
+.card__footer__top{
+  font-size: 1.7em ;
+  display: flex;
+  justify-content: space-between;
+}
+.card__footer__top__reacciones{
+  /* border:solid blue 2px; */
+  display: flex;
+  justify-content: space-around;
+ 
+ 
+ 
+}
+
+.card__footer__bottom > p{
+  /* border:solid yellow 2px; */
+  margin:.2em 0;
+  padding:  0;
+  font-size: .8em;
+  font-weight: 600 ;
+  color:#424242;
+ 
+
+}
+.card__footer__bottom > small{
+  /* border:solid green 2px; */
+  font-size: .7em;
+  margin:.2em 0;
+
+  color:#424242 ;
+}
+.card__footer__icon{
+  /* border:solid red 2px; */
+ margin: .2em .5em .2em 0;
+ color:#424242  ;
+}
+.card__footer__icon__save{
+  margin: .2em 0;
+  color:#424242 ;
+}
