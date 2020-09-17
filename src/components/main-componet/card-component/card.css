@@ -1,6 +1,7 @@
 .card{
-    /* border: solid 1px yellowgreen;
-    max-width: 100vw; */
+    /* border: solid 1px yellowgreen; */
+    max-width: 100vw;
+    min-width: 100vw;
     margin-bottom: -15px ;
     display: block;
     margin:0;
@@ -10,11 +11,13 @@
 }
 
 .user__images{
-    /* border: solid 1px red; */
+    max-width: 100vw;
+    min-width: 100vw;
+    margin:auto;
+ 
     height: auto;
     margin-bottom: 0;
     padding-top: 0px;
-    width: 100vw;
     object-fit: cover;
    
     

@@ -1,30 +1,28 @@
-import React from 'react';
+import React from "react";
+
 import CardHeader from "./cardHeader";
-import CardFooter from './cardFooter';
-import cardDataList from '../layout';
-import './card.css';
+import CardFooter from "./cardFooter";
+import "./card.css";
 
+export default function Card({ _id, username, avatar, posts }) {
+  return (
+    <>
+      <div className="card">
+        <CardHeader
+          key={_id}
+          username={username}
+          avatar={avatar}
+          posts={posts}
+        />
 
-
-
-
-
-export default function Card({userId, username, avatar, fotosUsers}){
-    return(
-        <>
-          <div className="card">
-              <CardHeader
-                userId={userId}
-                username={username}
-                avatar={avatar}
-              />
-                <img className="user__images" src={fotosUsers} alt="fotos_user" width="375px" />
-              <CardFooter />     
-         </div>  
-           
-           
-        </>
-    )
+        <img
+          className="user__images"
+          src={avatar}
+          alt="fotos_user"
+         
+        />
+        <CardFooter />
+      </div>
+    </>
+  );
 }
-
-

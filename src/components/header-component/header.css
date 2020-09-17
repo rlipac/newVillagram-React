@@ -1,9 +1,18 @@
+.top-header{
+     position: -webkit-sticky;
+     position: sticky; 
+   
+     bottom:-1px;
+     background-color: #ffffff;
+    
+}
 .header{
-       /* border:solid 3px red; */
+   
     display: flex;
     justify-content: space-between;
     padding: .5em 1em;
     border-bottom: solid 1px #e0e0e0  ;
+   
   
 }
 .header__logo{
@@ -61,5 +70,6 @@
             object-fit: cover;
             /* border:solid peru 4px; */
         }
+        
 
   }
